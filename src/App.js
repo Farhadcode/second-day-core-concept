@@ -39,8 +39,6 @@ function DisplayUser(props) {
   const { name, email } = props;
 
   const [count, setCount] = useState(0);
-
-
   const moreDetals = () => {
     const newValu = count + 1;
     setCount(newValu);
