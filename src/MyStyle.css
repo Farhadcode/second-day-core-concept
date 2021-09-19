@@ -1,0 +1,24 @@
+.gride-style {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.BoxStyle {
+  text-align: center;
+  color: rgb(44, 42, 42);
+  background-color: rgb(153, 205, 218);
+  margin: 10px;
+  /* //padding: 20px;  */
+  border-radius: 10px;
+}
+.btn-style {
+  background-color: tomato;
+  color: white;
+  height: 30px;
+  width: 60px;
+  border-radius: 3px;
+  border: none;
+  padding: 2px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
